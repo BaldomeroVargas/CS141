@@ -1,11 +1,12 @@
+#Nearest Neighbor
+
+Program to analyze nearest neighbor algorithm. Brute Force method O(n^2) and Divide and Conquer O(nlog(n)) are included.
+
 #How the code works
-Baldomero Vargas
-bvarg006@ucr.edu
-SID = 861143461
 
 The following code runs as follows
 
-1) function to run the brute force method. This just does a simple for loop
+1) Function to run the brute force method. This just does a simple for loop
 nested in another and returns the shortest distance in a select sort like
 algorithm.
 
