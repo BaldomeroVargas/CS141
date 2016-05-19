@@ -98,7 +98,7 @@ while curr_r > 0:
 			temp_c = temp_c + 1
 	elif start_c  == c_len - 1 :
 		ret_val =  min(grid[curr_r][temp_c-1].y,grid[curr_r][temp_c].y) 
-		if ret_val == grid[curr_r][start_c-1].y :
+		if ret_val == grid[curr_r][temp_c-1].y :
 			temp_c = temp_c - 1
 	else:
 		ret_val =  min(grid[curr_r][temp_c-1].y,grid[curr_r][temp_c].y,grid[curr_r][temp_c+1].y) 
