@@ -2,9 +2,9 @@
 
 How it runs: 
 
-1) Begin with reading the contents of the file and storing it in a 2D array of Decimals/Floats. 
+1) Begin with reading the contents of the file and storing it in a 2D array of Points with x = energy and y = min seam value. Values are of type Decimals/Floats. 
 
-2) Use a nested loop to itterate through the 2d array of decimals/float and perform the seam calculation algorithm. The previously defined point class used inthe first assignment is used to store for each pixel the x = energy value, y = lowest seam. The algorithm is as follows 2darray[i][j].y =2adarray[i][j].x + min(2darray[i-1][j-1].y + 2darray[i-1][j].y,grid[i-1][j+1].y) with bound checking on the left most and rightmost columns as well as the top row. So as this algorithm goes it stores the seam values in the (y) component of each pixel or cell in the 2darray. 
+2) Use a nested loop to itterate through the 2d array of Points and perform the seam calculation algorithm. The previously defined point class used inthe first assignment is used to store for each pixel the x = energy value, y = lowest seam. The algorithm is as follows 2darray[i][j].y =2adarray[i][j].x + min(2darray[i-1][j-1].y + 2darray[i-1][j].y,grid[i-1][j+1].y) with bound checking on the left most and rightmost columns as well as the top row. So as this algorithm goes it stores the seam values in the (y) component of each pixel or cell in the 2darray. 
 
 3)Once the algorithm is finished we check the bottom row for the minimum y value, this represents our minimum seam and we send that to the output file.
 
