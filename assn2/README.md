@@ -1,6 +1,8 @@
-#CS141 Assignment 2
+#Seam Carving
 
-How it runs: 
+This program uses the concept of dynamic programming to impleament a simple seam carving algorithm by removing the lowest energy dense pixels that are represented by floating point numbers
+
+#How it runs
 
 1) Begin with reading the contents of the file and storing it in a 2D array of Points with x = energy and y = min seam value. Values are of type Decimals/Floats. 
 
